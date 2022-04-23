@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    nim : 10119117
+    nama : Fikri Muhamad Fauzi
+    kelas : IF-3
+    tanggal : 23 April 2022
+-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#272727"
+    tools:context=".ProfileActivity">
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/back"
+        ></Button>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/manusia2"
+        >
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Fikri Muhamad Fauzi"
+        android:textSize="25dp"
+        android:textColor="#DBDBDB"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        >
+    </TextView>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center">
+        <RelativeLayout
+            android:layout_width="145dp"
+            android:layout_height="90dp"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center_horizontal"
+                android:text="NIM"
+                android:textColor="#DBDBDB"
+                android:textSize="20dp"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="10119117"
+                android:textSize="17dp"
+                android:textColor="#DBDBDB"
+                android:layout_marginTop="40dp"
+                android:gravity="center_horizontal"
+                ></TextView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="145dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="155dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center_horizontal"
+                android:text="Kelas"
+                android:textColor="#DBDBDB"
+                android:textSize="20dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="IF-3"
+                android:textSize="17dp"
+                android:textColor="#DBDBDB"
+                android:layout_marginTop="40dp"
+                android:gravity="center_horizontal"
+                ></TextView>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="190dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Deskripsi"
+            android:textColor="#DBDBDB"
+            android:textSize="20dp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Game adalah jalan ninjaku"
+            android:textColor="#DBDBDB"
+            android:textSize="17dp"
+            android:gravity="left"
+            ></TextView>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    nim : 10119117
+    nama : Fikri Muhamad Fauzi
+    kelas : IF-3
+    tanggal : 23 April 2022
+-->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#272727"
+    >
+
+<Button
+    android:id="@+id/btnLogout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="right"
+    android:text="LOGOUT"
+    android:textColor="#DBDBDB"
+    android:backgroundTint="#393939"
+    android:layout_marginTop="20dp"
+    android:layout_marginRight="25dp"
+    >
+
+</Button>
+
+    <Button
+        android:id="@+id/btnProf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Activity Profile  "
+        android:textColor="#DBDBDB"
+        android:textSize="20dp"
+        android:backgroundTint="#393939"
+        android:layout_marginTop="150dp"
+        android:drawableRight="@drawable/open"
+        >
+    </Button>
+
+
+</LinearLayout>

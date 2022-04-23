@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    nim : 10119117
+    nama : Fikri Muhamad Fauzi
+    kelas : IF-3
+    tanggal : 23 April 2022
+-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="#272727"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="LOGIN"
+        android:textSize="30dp"
+        android:textColor="#DBDBDB"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        >
+
+    </TextView>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="LOGIN"
+        android:textColor="#DBDBDB"
+        android:backgroundTint="#393939"
+        android:layout_marginTop="150dp"
+        >
+    </Button>
+
+    <TextView
+        android:id="@+id/txtRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="Create account"
+        android:textSize="15dp"
+        android:textColor="#DBDBDB"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        >
+    </TextView>
+
+</LinearLayout>
